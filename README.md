@@ -1,4 +1,4 @@
-# Mint-Raise-A-Case
+# Mint Raise A Case - Global Action Component
 
 This package contains a Global Action which redirect's the user to the Mint CRM Case Page. 
 
