@@ -1,18 +1,21 @@
-# Salesforce DX Project: Next Steps
+# Mint-Raise-A-Case
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+This package contains a Global Action which redirect's the user to the Mint CRM Case Page. 
 
-## How Do You Plan to Deploy Your Changes?
+## Verion Control
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+### 1.0 - Initial release
+ - Initial version of Global Action and MintNavigateToCreateCase Aura Component
 
-## Configure Your Salesforce DX Project
+## Part 1: Installation
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+- Use incongnito mode, and log in to the Salesforce Org you would like to deploy the package to
+- Click the below to deploy the package
+<a href="https://githubsfdeploy.herokuapp.com?owner=MintCRM&repo=MintRaiseACase&ref=main">
+  <img alt="Deploy to Salesforce"
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
+</a>
 
-## Read All About It
+## Part 2: Configuration
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+ - Add the Global Action to the Global Publisher Layout and save.
